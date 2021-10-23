@@ -1,0 +1,13 @@
+.signin_page{
+    position: relative;
+    min-height: 100vh;
+    animation: centerMe 5s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+@keyframes centerElement {
+    0% { top: 0%; transform: translateY(0%); }
+    50% { top: 50%; transform: translateY(0%); }
+    100% { top: 50%; transform: translateY(-50%); }
+}

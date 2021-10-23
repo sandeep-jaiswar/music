@@ -1,0 +1,17 @@
+.lib-card{
+    position: absolute;
+    height: 30rem;
+    width: 20rem;
+    box-shadow: 2rem 2rem 5rem rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    overflow: hidden;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    .content{
+        padding: 2rem;
+        min-height: 100%;
+        transition: 0.5s;
+        font-size: 1rem;
+    }
+}
